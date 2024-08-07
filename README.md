@@ -377,7 +377,6 @@ settings.json
     "right_padding": 0.15
   }
 }
-'''
 ```
 
 keymap.json
