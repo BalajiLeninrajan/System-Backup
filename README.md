@@ -2,7 +2,7 @@
 
 - Get ssh key for github
 - Sign into accounts
-- Wallpaper in google drive
+- Set Wallpaper
 
 ## .bashrc
 
