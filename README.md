@@ -1,4 +1,4 @@
-# Setup
+![Screenshot from 2024-08-24 16-08-48](https://github.com/user-attachments/assets/300a39b6-360a-4db2-b364-40387fbda9c3)# Setup
 
 - Get ssh key for github
 - Sign into accounts
@@ -323,20 +323,19 @@ Midnight for BetterDiscord w/
 settings.json
 
 ```json
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `zed: Open Default Settings` command
-// from the command palette
 {
-  "ui_font_family": "Cantarell",
-  "buffer_font_family": "Source Code Pro",
+  "autosave": "on_focus_change",
   "features": {
     "inline_completion_provider": "none"
   },
+  "ui_font_family": "Cantarell",
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "buffer_font_family": "Source Code Pro",
   "base_keymap": "VSCode",
   "relative_line_numbers": true,
   "formatter": "auto",
@@ -358,8 +357,10 @@ settings.json
     "dark": "Adwaita Pastel Dark"
   },
   "assistant": {
-    "enabled": false,
-    "button": false,
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-1.5-flash"
+    },
     "version": "2"
   },
   "terminal": {
@@ -383,13 +384,6 @@ settings.json
 keymap.json
 
 ```json
-// Zed keymap
-//
-// For information on binding keys, see the Zed
-// documentation: https://zed.dev/docs/key-bindings
-//
-// To see the default key bindings run `zed: Open Default Keymap`
-// from the command palette.
 [
   {
     "context": "Workspace",
