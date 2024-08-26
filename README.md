@@ -1,5 +1,3 @@
-![Screenshot from 2024-08-24 16-08-48](https://github.com/user-attachments/assets/300a39b6-360a-4db2-b364-40387fbda9c3)# Setup
-
 - Get ssh key for github
 - Sign into accounts
 - Set Wallpaper
