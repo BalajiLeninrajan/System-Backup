@@ -1,0 +1,12 @@
+- HTML
+- Git Firefly
+- SQL
+- Emmet
+- XML
+- LaTex
+- Dart
+- Markdown Oxide
+- Rainbow CSV
+- Basher
+- Scala
+- Adwaita Pastel Themem

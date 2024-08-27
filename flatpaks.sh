@@ -1,0 +1,15 @@
+flatpak install flathub com.github.d4nj1.tlpui -y
+flatpak install flathub com.github.tchx84.Flatseal -y
+flatpak install flathub com.spotify.Client -y
+flatpak install flathub dev.zed.Zed -y
+flatpak install flathub io.bassi.Amberol -y
+flatpak install flathub org.blender.Blender -y
+flatpak install fedora org.gimp.GIMP -y
+flatpak install fedora org.gnome.Extensions -y
+flatpak install flathub org.gnome.Podcasts -y
+flatpak install flathub org.gnome.Totem -y
+flatpak install fedora org.gnome.baobab -y
+flatpak install flathub org.mozilla.Thunderbird -y
+flatpak install flathub org.nickvision.tubeconverter -y
+flatpak install flathub org.qbittorrent.qBittorrent -y
+flatpak install flathub xyz.armcord.ArmCord -y
