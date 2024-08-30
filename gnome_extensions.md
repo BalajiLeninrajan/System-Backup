@@ -1,0 +1,5 @@
+- [Clipboard History](https://extensions.gnome.org/extension/4839/clipboard-history/)
+- [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/)
+- [Hide Universal Access](https://extensions.gnome.org/extension/2398/hide-universal-access/)
+- [Launch new instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
+- [Weather O'Clock](https://extensions.gnome.org/extension/5470/weather-oclock/)
