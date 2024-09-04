@@ -119,34 +119,31 @@ cppdrun() {
 }
 alias la="eza -l -a -h --git"
 alias ll="eza -l -h --git"
+alias ls="eza -l -h --git"
 alias cdc="cd ~/Documents/code"
 alias py="python"
 alias rust="rustc"
 alias speedtest="speedtest-cli"
 alias spotx-update="bash <(curl -sSL https://spotx-official.github.io/run.sh)"
-alias vi="nvim"
 alias venv_activate="source ./venv/bin/activate"
 alias top="btop"
 alias cat="bat"
 alias rmdir="rm -rf"
-alias neofetch="fastfetch --logo ~/Pictures/ProfilePicture.png --logo-height 25"
+alias neofetch="fastfetch --logo ~/Documents/System-Backup/ProfilePicture.png --logo-height 25"
 alias zed="flatpak run dev.zed.Zed"
 
 unset rc
 
-export PATH="$PATH:$HOME/.local/share/flutter/bin"
-export CHROME_EXECUTABLE="/usr/bin/firefox"
+export PATH="$PATH:$HOME/.local/share/flutter_sdk/flutter/bin"
 
-export ANDROID_HOME=$HOME/.local/share/Android
-export PATH=$ANDROID_HOME/cmdline-tools/tools/bin/:$PATH
-export PATH=$ANDROID_HOME/emulator/:$PATH
+export ANDROID_HOME=$HOME/.local/share/android_sdk
+export PATH=$ANDROID_HOME/cmdline-tools/latest/bin/:$PATH
+# export PATH=$ANDROID_HOME/emulator/:$PATH
 export PATH=$ANDROID_HOME/platform-tools/:$PATH
+
+source "/home/balaji/.sdkman/bin/sdkman-init.sh"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 eval "$(thefuck --alias)"
